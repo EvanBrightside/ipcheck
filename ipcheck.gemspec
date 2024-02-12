@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.summary = 'Check IP geolocation'
   spec.description = 'Check IP geolocation with https://ip-api.com'
   spec.homepage = 'https://github.com/EvanBrightside/ipcheck'
-  spec.required_ruby_version = '>= 3.2'
+  spec.required_ruby_version = '>= 3.0.0'
 
   spec.metadata = {
     'rubygems_mfa_required' => 'true',
