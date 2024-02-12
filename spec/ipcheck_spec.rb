@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 RSpec.describe Ipcheck do
-  let(:metadata_response) { File.read('spec/fixtures/metadata_response.xml')}
+  let(:metadata_response) { File.read('spec/fixtures/metadata_response.xml') }
   let(:ip_address) { '8.8.8.8' }
   let(:url) { "http://ip-api.com/xml/#{ip_address}" }
   let(:ip_meta) { Ipcheck.lookup(ip_address) }
