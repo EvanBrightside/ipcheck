@@ -24,6 +24,8 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
+my_ip = Ipcheck.my_ip # 169.254.1.2
+
 ip_meta = Ipcheck.lookup('8.8.8.8')
 ip_meta.city # Ashburn
 ip_meta.country # United States

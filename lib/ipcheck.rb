@@ -14,4 +14,9 @@ module Ipcheck
     response = URI.parse(url).read
     Metadata.parse(response)
   end
+
+  def self.my_ip
+    url = 'https://api64.ipify.org'
+    URI.parse(url).read
+  end
 end
