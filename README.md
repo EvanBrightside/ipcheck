@@ -1,5 +1,8 @@
 # Ipcheck
 
+![Gem Version](https://img.shields.io/gem/v/ipcheck)
+[![Ruby](https://github.com/EvanBrightside/ipcheck/actions/workflows/main.yml/badge.svg)](https://github.com/EvanBrightside/ipcheck/actions/workflows/main.yml)
+
 This gem allows you to obtain information via IP - for example, country, city, coordinates.
 
 ## Installation
